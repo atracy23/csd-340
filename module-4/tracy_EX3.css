@@ -57,11 +57,15 @@ Build a Webpage Exercise, Part 3
 
 }
 
-
+h1, h2, h3{
+    color: red;
+}
 h1{
+    color: black
     text-align: center;
     font-family: Oswald, Verdana, Arial, sans-serif;
 }
+
 
 
 .box{
@@ -130,5 +134,4 @@ ol{
 ul{
     list-style-type: upper-roman;
     text-align: left;
-    
 }
