@@ -99,12 +99,11 @@ figcaption{
 img{
     width: 200px;
     height: 350px;
+    
 }
 .grid-container{
     margin-top: 10%;
     display: grid;
-    /*display: inline-grid;
-    grid-template-columns: auto auto auto;*/
     justify-content: center;
     align-content: center;
    
