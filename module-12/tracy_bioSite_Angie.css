@@ -275,13 +275,22 @@ p{
     word-wrap: normal;
     
 }
+
 footer{
-    background-color:dodgerblue;
+    background-color: dodgerblue;
     position:fixed;
     bottom: 0;
     width: 100%;
-    height: 20px;
 }
+
+footer a{
+    text-decoration-line: none;
+    color: white;
+}
+ 
+footer a:hover{
+    text-decoration-line:underline
+ }
 
 .row:after{
     content: "";
