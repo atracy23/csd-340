@@ -78,7 +78,7 @@ header{
     font-size: 18px;
 }
 
-button {
+.button {
     border: none;
     outline: 0;
     display: inline-block;
@@ -87,12 +87,12 @@ button {
     background-color: #000;
     text-align: center;
     cursor: pointer;
-    width: 100%;
     font-size: 18px;
+    width:max-content;
 }
 
 address {
-    display: block;
+    display:inline-block;
     font-style: italic;
     color: white;
 }
@@ -103,7 +103,7 @@ a {
     color: black;
 }
 
-button:hover, a:hover {
+.button:hover, a:hover {
     opacity: 0.7;
 }
 
@@ -125,9 +125,9 @@ figure{
 }
 
 figcaption{
-    font-style: italic;
     font-size: .75em;
-    color: aliceblue;
+    text-align: center;
+    color: #000;
 }
 
 img{
@@ -261,12 +261,6 @@ td{
 
 .card:hover{
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .2);
-}
-
-figcaption{
-    font-size: medium;
-    color: aliceblue;
-    text-align: center;
 }
 
 img{
